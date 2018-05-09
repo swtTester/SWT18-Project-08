@@ -1,5 +1,7 @@
 as yet unclassified
 testComponentVarAfterInitialization
 	| menu |
-	menu := RTEMenu newWith: self.
+	menu :=  RTEMenuTest newWith: self.
+	
+	
 	self assert: (menu component) equals: self.
